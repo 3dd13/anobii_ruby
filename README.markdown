@@ -1,4 +1,4 @@
-calling Anobii API with Ruby
+Calling Anobii API with Ruby
 ============
 
 Setup
@@ -8,9 +8,12 @@ Setup
 
 Functions Supported
 ------------
-SimpleShelf:
-* get top ten books in your bookshelf
-* get book details, such as title, subtitle, format, language and book cover image url
+* get top ten books in your bookshelf (anobii.shelf.getSimpleShelf)
+* get book details, such as title, subtitle, format, language and book cover image url (anobii.item.getInfo)
+
+Note
+------------
+Instead of directly using the book cover image the server gave, I manipulated the url to retrieve a higher resolution.
 
 Future Enhancement
 ------------
