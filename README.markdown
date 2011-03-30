@@ -3,7 +3,7 @@ Calling Anobii API with Ruby
 
 Setup
 ------------
-* apply your Anobii API key at http://www.anobii.com/api
+* apply your Anobii API key at http://www.anobii.com/api_home
 * update the API_KEY and API_SECRET_CODE value in the file
 
 Functions Supported
